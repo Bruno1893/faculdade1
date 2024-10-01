@@ -1,0 +1,61 @@
+import React from 'react';
+
+function Home() {
+  return (
+    <div className="container">
+      <h1>Bem-vindo ao Meu Portfólio</h1>
+      <p>Explore meus projetos, vídeos de apresentação e documentos de trabalho.</p>
+    </div>
+  );
+}
+
+export default Home;
+import React from 'react';
+
+function Projetos() {
+  return (
+    <div className="container">
+      <h2>Meus Projetos</h2>
+      <ul>
+        <li><a href="https://github.com/seu-usuario/projeto1" target="_blank" rel="noopener noreferrer">Projeto 1</a></li>
+        <li><a href="https://github.com/seu-usuario/projeto2" target="_blank" rel="noopener noreferrer">Projeto 2</a></li>
+        <li><a href="https://github.com/seu-usuario/projeto3" target="_blank" rel="noopener noreferrer">Projeto 3</a></li>
+      </ul>
+    </div>
+  );
+}
+
+export default Projetos;
+import React from 'react';
+
+function Videos() {
+  return (
+    <div className="container">
+      <h2>Vídeos de Apresentação</h2>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/exemplo1" title="Vídeo 1"></iframe>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/exemplo2" title="Vídeo 2"></iframe>
+      </div>
+    </div>
+  );
+}
+
+export default Videos;
+import React from 'react';
+
+function Documentos() {
+  return (
+    <div className="container">
+      <h2>Documentos de Apresentação (PPTs)</h2>
+      <ul>
+        <li><a href="https://exemplo.com/documento1.ppt" target="_blank" rel="noopener noreferrer">Apresentação 1</a></li>
+        <li><a href="https://exemplo.com/documento2.ppt" target="_blank" rel="noopener noreferrer">Apresentação 2</a></li>
+        <li><a href="https://exemplo.com/documento3.ppt" target="_blank" rel="noopener noreferrer">Apresentação 3</a></li>
+      </ul>
+    </div>
+  );
+}
+
+export default Documentos;
